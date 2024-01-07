@@ -1,5 +1,5 @@
 import ContainerBlock from "../components/ContainerBlock";
-import FavouriteCertifications from "../components/FavouriteCertifications";
+import FavouriteProjects from "../components/FavouriteProjects";
 import Hero from "../components/Hero";
 import "semantic-ui-css/semantic.min.css";
 
@@ -11,7 +11,7 @@ export default function Home() {
       description="Developer portfolio to show what I have done"
     >
       <Hero />
-      <FavouriteCertifications />
+      <FavouriteProjects />
     </ContainerBlock>
     </>
   );
