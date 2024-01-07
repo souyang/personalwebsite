@@ -36,7 +36,7 @@ export default function AboutMe() {
                 Contact
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                For any inquery, shoot me an{" "}
+                For any inquiry, shoot me an{" "}
                 <a
                   target="_blank"
                   href={`mailto:${userData.email}`}
@@ -231,7 +231,7 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                alt="Kubernates" 
+                alt="Kubernetes" 
                 src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/Kubernetes.svg"
                 className="h-20 w-20 mx-4 my-4"
               />

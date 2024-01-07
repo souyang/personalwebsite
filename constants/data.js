@@ -1,13 +1,20 @@
+const techStackIconBaseURL = "https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/"
 const userData = {
   githubUsername: "souyang",
   linkedin: "https://www.linkedin.com/in/xi-ouyang/",
   name: "Xi Ouyang",
-  designation: "Senior Full Stack Engineer",
+  designation: "Senior Fullstack  Engineer",
   avatarUrl: "/avatar.jpeg",
   email: "simonouyang@gmail.com",
   phone: "+1 4244759376",
   address: "Los Angeles, California, USA",
+
   favouriteCertifications: [
+    {
+      title: "Certified Jenkins Engineer",
+      link: "https://certificates.cloudbees.com/fc894af2-c74f-485f-8466-39561d474596",
+      imageUrl: "/certificates/jenkins.png"
+    },
     {
       title: "Enterprise Blockchain Professional",
       link: "https://www.credential.net/1847ea65-047f-453b-926a-d27fdfef2608",
@@ -18,11 +25,266 @@ const userData = {
       link: "https://certification.scrumalliance.org/accounts/1241022-xi-ouyang/certifications/1436305-csm",
       imageUrl: "/certificates/scrum-master.png"
     },
+  ],
+  techstacks: [
     {
-      title: "Certified Jenkins Engineer",
-      link: "https://certificates.cloudbees.com/fc894af2-c74f-485f-8466-39561d474596",
-      imageUrl: "/certificates/jenkins.png"
+      id:"javascript",
+      name: "JavaScript",
+      tag: "Frontend",
+      imageUrl: `${techStackIconBaseURL}/JavaScript.svg`,
     },
+    {
+      id: "typescript",
+      name: "TypeScript",
+      tag: "Frontend",
+      imageUrl: `${techStackIconBaseURL}/TypeScript.svg`,
+    },
+    {
+      id: "nodejs",
+      name: "NodeJS",
+      tag: "Frontend",
+      imageUrl: `${techStackIconBaseURL}/NodeJS-Dark.svg`,
+    },
+    {
+      id: "html",
+      name: "HTML",
+      tag: "Frontend",
+      imageUrl: `${techStackIconBaseURL}/HTML.svg`,
+    },
+    {
+      id: "css",
+      name: "CSS",
+      tag: "Frontend",
+      imageUrl: `${techStackIconBaseURL}/CSS.svg`,
+    },
+    {
+      id: "sass",
+      name: "Sass",
+      tag: "Frontend",
+      imageUrl: `${techStackIconBaseURL}/Sass.svg`,
+    },
+    {
+      id: "react",
+      name: "React",
+      imageUrl: `${techStackIconBaseURL}/React-Dark.svg`,
+    },
+    {
+      id: "nextjs",
+      name: "NextJS",
+      tag: "Frontend",
+      imageUrl: `${techStackIconBaseURL}/NextJS-Dark.svg`,
+    },
+    {
+      id: "gatsby",
+      name: "GatsbyJS",
+      tag: "Frontend",
+      imageUrl: `${techStackIconBaseURL}/Gatsby.svg`,
+    },
+    {
+      id: "redux",
+      name: "Redux Toolkit",
+      tag: "Frontend",
+      imageUrl: `${techStackIconBaseURL}/Redux.svg`,
+    },
+    {
+      id: "materialui",
+      name: "Material UI",
+      tag: "Frontend",
+      imageUrl: `${techStackIconBaseURL}/MaterialUI-Dark.svg`,
+    },
+    {
+      id: "tailwindcss",
+      name: "TailwindCSS",
+      tag: "Frontend",
+      imageUrl: `${techStackIconBaseURL}/TailwindCSS-Dark.svg`,
+    },
+    {
+     id: "shadcnui",
+     name: "ShadcnUI",
+     tag: "Frontend",
+     imageUrl: `${techStackIconBaseURL}/shadcnui.svg`, 
+    },
+    {
+      id: "vercel",
+      name: "Vercel",
+      tag: "Frontend",
+      imageUrl: `${techStackIconBaseURL}/Vercel-Dark.svg`,
+    },
+    {
+      id: "vite",
+      name: "Vite",
+      tag: "Frontend",
+      imageUrl: `${techStackIconBaseURL}/Vite-Dark.svg`,     
+    },
+    {
+      id: "webpack",
+      name: "Webpack",
+      tag: "Frontend",
+      imageUrl: `${techStackIconBaseURL}/Webpack-Dark.svg`,     
+    },
+    {
+      id: "java",
+      name: "Java",
+      tag: "Java, Backend",
+      imageUrl: `${techStackIconBaseURL}/Java-Dark.svg`,
+    },
+    {
+      id: "spring",
+      name: "Spring",
+      tag: "Java",
+      imageUrl: `${techStackIconBaseURL}/Spring-Dark.svg`,
+    },
+    {
+      id: "hibernate",
+      name: "Hibernate",
+      tag: "Java",
+      imageUrl: `${techStackIconBaseURL}/Hibernate-Dark.svg`,
+    },
+    {id: "python", name: "Python", tag: "Python", imageUrl: `${techStackIconBaseURL}/Python-Dark.svg`},
+    {id: "Django", name: "Django", tag: "Python", imageUrl: `${techStackIconBaseURL}/Django.svg`},
+    {
+      id: "express",
+      name: "ExpressJS",
+      tag: "Backend",
+      imageUrl: `${techStackIconBaseURL}/ExpressJS-Dark.svg`,
+    },
+    {
+      id: "graphql",
+      name: "GraphQL",
+      tag: "Backend",
+      imageUrl: `${techStackIconBaseURL}/GraphQL-Dark.svg`,
+    },
+    {
+      id: "prisma",
+      name: "Prisma",
+      tag: "Backend",
+      imageUrl: `${techStackIconBaseURL}/Prisma.svg`,
+    },
+    {
+      id: "sequelize",
+      name: "Sequelize",
+      tag: "Backend",
+      imageUrl: `${techStackIconBaseURL}/Sequelize-Dark.svg`,
+    },
+    {
+      id: "mysql",
+      name: "MySQL",
+      tag: "Backend",
+      imageUrl: `${techStackIconBaseURL}/MySQL-Dark.svg`,
+    },
+    {
+      id: "postgresql",
+      name: "PostgreSQL",
+      tag: "Backend",
+      imageUrl: `${techStackIconBaseURL}/PostgreSQL-Dark.svg`,
+    },
+    
+    {
+      id: "mongodb",
+      name: "MongoDB",
+      tag: "Backend",
+      imageUrl: `${techStackIconBaseURL}/MongoDB.svg`,
+    },
+
+    {
+      id: "redis",
+      name: "Redis",
+      tag: "Backend",
+      imageUrl: `${techStackIconBaseURL}/Redis-Dark.svg`,     
+    },
+    {
+      id: "rabbitmq",
+      name: "RabbitMQ",
+      imageUrl: `${techStackIconBaseURL}/RabbitMQ-Dark.svg`,     
+    },
+    {
+      id: "kafka",
+      name: "Kafka",
+      tag: "Backend",
+      imageUrl: `${techStackIconBaseURL}/Kafka.svg`,
+    }, {
+      id: "aws",
+      name: "AWS",
+      tag: "Fullstack",
+      imageUrl: `${techStackIconBaseURL}/AWS-Dark.svg`,
+    }, {
+      id: "azure",
+      name: "Azure",
+      tag: "Fullstack",
+      imageUrl: `${techStackIconBaseURL}/Azure-Dark.svg`,
+    },
+    {
+      id: "docker",
+      name: "Docker",
+      tag: "Fullstack",
+      imageUrl: `${techStackIconBaseURL}/Docker.svg`,
+    },
+    {
+      id: "kubernetes",
+      name: "Kubernetes",
+      tag: "Fullstack",
+      imageUrl: `${techStackIconBaseURL}/Kubernetes.svg`,
+    },
+    {
+      id: "jenkins",
+      name: "Jenkins",
+      tag: "Fullstack",
+      imageUrl: `${techStackIconBaseURL}/Jenkins-Dark.svg`,
+    }
+  ],
+  favouriteProjects: [
+    {
+      title: "Notes AI",
+      link: "https://notesai.vercel.app/notes",
+      imageUrl: "/projects/notes-ai.png",
+    },
+    {
+      title: "AI Online Article Summarizer",
+      link: "https://suzi-ai.vercel.app/",
+      imageUrl: "/projects/ai-summarizer.png",
+    },
+    {
+      title: "Prompt Network",
+      link: "https://promptnetwork.vercel.app/",
+      imageUrl: "/projects/prompt-network.png",
+    },
+  ],
+  projects: [
+    {
+      title: "Notes AI",
+      link: "https://notesai.vercel.app/notes",
+      imageUrl: "/projects/notes-ai.png",
+    },
+    {
+      title: "AI Online Article Summarizer",
+      link: "https://suzi-ai.vercel.app/",
+      imageUrl: "/projects/ai-summarizer.png",
+    },
+    {
+      title: "Prompt Network",
+      link: "https://promptnetwork.vercel.app",
+      imageUrl: "/projects/prompt-network.png",
+    },
+    {
+      title: "Buddy Circle",
+      link: "https://buddy-circle.vercel.app",
+      image: "/projects/buddy-circle.png",
+    },
+    {
+      title: "Financial Dashboard",
+      link: "https://datav-dashboard.netlify.app",
+      image: "/projects/financial-dashboard.png",
+    },
+    {
+      title: "ReturnBear",
+      link: "https://numi-canada.portals.returnbear.com/",
+      image: "/projects/returnbear.png",
+    },
+    {
+      title: "Pet Name Generator",
+      link: "https://pet-name-generator-ckd0.onrender.com/",
+      image: "/projects/pet-name-generator.png",
+    }
   ],
   certificates: [
     {
@@ -75,9 +337,9 @@ const userData = {
     title:
       "I have years of start-up and venture building experience in designing, developing, deploying web and mobile applications for external companies across industries like E-commerce, Healthcare, Biotech, Energy, etc.",
     description: [
-      `Over the years, I have extensive experience developing and deploying high-performance web and mobile applications in diverse industries such as E-commerce, Healthcare, Biotechnology, Energy, Fintech, and Education.`,
-      `I am proficient in languages like TypeScript, JavaScript, Java, C# and Python, as well as frameworks including React, React Native, Spring Boot, Django, and Node.js.`,`Additionally, I am also familar with in databases like Elastic Search, MongoDB, MySQL, and Postgres, and I utilize Terraform and Jenkins for cloud deployment on AWS, GCP and Azure.`,
-      `In addition to my technical skills, I'm recognized for promoting teamwork and inclusivity within teams. I prioritize transparent communication with both leadership and clients to ensure project success.`
+      `Over the years, I have extensive experience developing and deploying high-performance web and mobile applications in diverse industries such as E-commerce, Healthcare, Energy, Fintech, and Education.`,
+      `I am proficient in languages like TypeScript, JavaScript, Python as well as frameworks including React, React Native, Express.js, and Node.js`,`Additionally, I am also familiar with in databases like Redis, MongoDB, Pinecone, DynamoDB, MySQL, Firestore and Postgres, and I utilize Terraform and Jenkins for cloud deployment on AWS, GCP and Azure.`,
+      `In addition to my technical skills, I'm recognized for promoting teamwork and collaboration within teams. I prioritize transparent communication with both leadership and clients to ensure project success.`
     ],
     currentCompany: "Boston Consulting Group",
     currentCompanyUrl: "https://bcg.com/x",
@@ -109,7 +371,7 @@ const userData = {
       company: "Boston Consulting Group",
       year: "2019.4 - present",
       companyLink: "https://bcg.com/x",
-      desc: "Directed and implemented an omnichannel return management portal for retailers at an e-commerce startup, slashing refund processing time from 14 days to 15 minutes and 70% shipping costs reduction for millions of consumers.",
+      desc: "Directed and implemented an branded return management portal for retailers at an e-commerce startup, slashing refund processing time from 14 days to 15 minutes and 70% shipping costs reduction for millions of consumers of 5 retailers such as Numi, Palladium, Northboys.",
     },
     {
       title: "Pod Lead and Senior Full Stack engineer",
@@ -119,11 +381,11 @@ const userData = {
       desc: "Optimized supply chain platform by replacing manual forecast submission and review with automated processes, leveraging D3.js for data visualization, achieved a 25% increase in forecast submission productivity.",
     },
     {
-      title: "Hackerthon Winner",
+      title: "BCG X Hackathon Winner",
       company: "Boston Consulting Group",
       year: "2019.4 - present",
       companyLink: "https://bcg.com/x",
-      desc: "Attained a top 3 placement in the BCG X Cohere.AI hackathon, showcasing the `SMS AI Assistant` project to 100+ engineers in BCG X Generative AI Team.",
+      desc: "Attained a top 3 placement in the BCG X Generative AI Hackathon, showcasing the `SMS AI Assistant` project to 100+ engineers in BCG X Generative AI Team.",
     },
     {
       title: "Scrum Master (Part Time)",
@@ -176,7 +438,7 @@ const userData = {
 },     
     {
       title: "Master of Computer Science",
-      company: "Rochester Institue of Technology",
+      company: "Rochester Institute of Technology",
       year: "2009 - 2012",
       companyLink: "https://www.rit.edu",
       desc: "Major in Computer Science with GPA of 3.87.",
@@ -194,8 +456,6 @@ const userData = {
     twitter: "",
     linkedin: "https://www.linkedin.com/in/xi-ouyang/",
     github: "https://github.com/souyang",
-    facebook: "",
-    peerlist: "",
   },
 };
 

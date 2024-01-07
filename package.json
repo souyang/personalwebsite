@@ -5,11 +5,13 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "spell": "npx cspell '**/*.jsx' && npx cspell '**/*.js'"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.1.1",
     "axios": "^0.21.1",
+    "cspell": "^8.3.2",
     "dotenv": "^16.3.1",
     "emailjs-com": "^3.2.0",
     "firebase": "^10.1.0",
