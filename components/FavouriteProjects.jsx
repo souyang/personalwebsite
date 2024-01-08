@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import userData from "@constants/data";
 import Image from 'next/image'
+import MotionProvider from "./MotionProvider";
 
 export default function FavouriteProjects() {
   return (
@@ -35,15 +36,17 @@ export default function FavouriteProjects() {
         </header>
 
         {/* Grid starts here */}
-        <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
+        <div className="grid md:grid-cols-2 gap-8 lg:-mt-8 pb-40">
         {userData?.favouriteProjects?.map((proj, idx) => (
-            <ProjectCard
-              key={idx}
-              title={proj.title}
-              link={proj.link}
-              imageUrl={proj.imageUrl}
-              number={`${idx + 1}`}
-            />
+            <MotionProvider key={idx} index={idx}>
+              <ProjectCard
+                key={idx}
+                title={proj.title}
+                link={proj.link}
+                imageUrl={proj.imageUrl}
+                number={`${idx + 1}`}
+              />
+            </MotionProvider>
           ))}
         </div>
       </div>

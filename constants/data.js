@@ -345,10 +345,9 @@ const userData = {
   ],
   about: {
     title:
-      "I have years of start-up and venture building experience in designing, developing, deploying web and mobile applications for external companies across industries like E-commerce, Healthcare, Biotech, Energy, etc.",
+      "Seasoned in catalyzing start-ups and venture initiatives, I excel in designing, developing, and deploying web/mobile apps across diverse sectors such as E-commerce, Healthcare, Biotech, and Energy.",
     description: [
-      `Over the years, I have extensive experience developing and deploying high-performance web and mobile applications in diverse industries such as E-commerce, Healthcare, Energy, Fintech, and Education.`,
-      `I am proficient in languages like TypeScript, JavaScript, Python as well as frameworks including React, React Native, Express.js, and Node.js`,`Additionally, I am also familiar with in databases like Redis, MongoDB, Pinecone, DynamoDB, MySQL, Firestore and Postgres, and I utilize Terraform and Jenkins for cloud deployment on AWS, GCP and Azure.`,
+      `I am proficient in languages like TypeScript, JavaScript, Python, Java as well as frameworks including React, React Native, Django, Spring Boot, Spring Cloud, Express.js, and Node.js`,`Additionally, I am also familiar with in databases like Redis, MongoDB, Pinecone, DynamoDB, MySQL, Firestore and Postgres, and I utilize Terraform, Docker, Kubernetes, Jenkins, Github, Gitlab, and CircleCI for CI/CD and cloud deployment on AWS, GCP and Azure.`,
       `In addition to my technical skills, I'm recognized for promoting teamwork and collaboration within teams. I prioritize transparent communication with both leadership and clients to ensure project success.`
     ],
     currentCompany: "Boston Consulting Group",

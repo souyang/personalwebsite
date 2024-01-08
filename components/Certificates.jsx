@@ -1,5 +1,6 @@
 import React from "react";
 import userData from "@constants/data";
+import MotionProvider from "./MotionProvider";
 
 export default function Certificates() {
   return (
@@ -13,13 +14,15 @@ export default function Certificates() {
       <div className="bg-[#F1F1F1] dark:bg-gray-900">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40 pl-5 pr-5 md:pl-10  md:pr-10">
           {userData.certificates.map((proj, idx) => (
-            <CertificateCard
-              key={idx}
-              title={proj.title}
-              link={proj.link}
-              imageUrl={proj.imageUrl}
-              number={`${idx + 1}`}
-            />
+            <MotionProvider key={idx} index={idx} pageSize={2}>
+              <CertificateCard
+                key={idx}
+                title={proj.title}
+                link={proj.link}
+                imageUrl={proj.imageUrl}
+                number={`${idx + 1}`}
+              />
+            </MotionProvider>
           ))}
         </div>
       </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import userData from "@constants/data";
-import Image from 'next/image'
+import MotionProvider from "./MotionProvider";
 
 export default function FavouriteCertifications() {
   return (
@@ -37,6 +37,7 @@ export default function FavouriteCertifications() {
         {/* Grid starts here */}
         <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
         {userData?.favouriteCertifications?.map((proj, idx) => (
+          <MotionProvider index={idx} key={idx}>
             <CertificateCard
               key={idx}
               title={proj.title}
@@ -44,6 +45,7 @@ export default function FavouriteCertifications() {
               imageUrl={proj.imageUrl}
               number={`${idx + 1}`}
             />
+           </MotionProvider> 
           ))}
         </div>
       </div>

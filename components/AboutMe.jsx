@@ -1,6 +1,8 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import userData from "@constants/data";
 import SocialLink from "./SocialLink";
+import MotionProvider from "./MotionProvider";
 
 export default function AboutMe() {
   return (
@@ -16,7 +18,7 @@ export default function AboutMe() {
             className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
             style={{ lineHeight: "3rem" }}
           >
-            {userData.about.title}. Currently working in{" "}
+            {userData.about.title}. Recently worked in{" "}
             <a
               className="bg-red-500 rounded-md px-2 py-1 text-white"
               href={userData.about.currentCompanyUrl}
@@ -89,161 +91,39 @@ export default function AboutMe() {
             </h1>
 
             <div className="flex flex-row flex-wrap mt-8">
-              <img
-                alt="TypeScript"
-                src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/TypeScript.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                alt="JavaScript"
-                src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/JavaScript.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                alt="Java"
-                src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/Java-Dark.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img alt="Python" src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/Python-Dark.svg" className="h-20 w-20 mx-4 my-4"  />
-              <img alt="C#" src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/CSharp.svg" className="h-20 w-20 mx-4 my-4"  />
-              <img
-               alt="HTML"
-                src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/HTML.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                alt="CSS"
-                src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/CSS.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                alt="Sass"
-                src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/Sass.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img 
-                alt="React" 
-                src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/React-Dark.svg" 
-                className="h-20 w-20 mx-4 my-4" 
-              />
-              <img 
-                alt="NextJS" 
-                src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/NextJS-Dark.svg" 
-                className="h-20 w-20 mx-4 my-4" 
-              />
-              <img 
-                alt="Gatsby" 
-                src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/Gatsby.svg" 
-                className="h-20 w-20 mx-4 my-4" 
-              />
-              <img 
-                alt="Redux" 
-                src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/Redux.svg" 
-                className="h-20 w-20 mx-4 my-4" 
-              />
-              <img 
-                alt="MaterialUI" 
-                src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/MaterialUI-Dark.svg" 
-                className="h-20 w-20 mx-4 my-4" 
-              />
-              <img 
-                alt="TailwindCSS" 
-                src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/TailwindCSS-Dark.svg" 
-                className="h-20 w-20 mx-4 my-4" 
-              />
-              <img 
-                alt="Webpack" 
-                src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/Webpack-Dark.svg" 
-                className="h-20 w-20 mx-4 my-4" 
-              />
-              <img 
-                alt="GraphQL" 
-                src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/GraphQL-Dark.svg" 
-                className="h-20 w-20 mx-4 my-4" 
-              />
-              <img 
-                alt="RabbitMQ" 
-                src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/RabbitMQ-Dark.svg" 
-                className="h-20 w-20 mx-4 my-4" 
-              /> 
-              <img 
-                alt="ExpressJS" 
-                src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/ExpressJS-Dark.svg" 
-                className="h-20 w-20 mx-4 my-4" 
-              />       
-              <img 
-                alt="NodeJS" 
-                src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/NodeJS-Dark.svg" 
-                className="h-20 w-20 mx-4 my-4" 
-              />
-              <img 
-              alt="Django" 
-                src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/Django.svg" className="h-20 w-20 mx-4 my-4" 
-              />
-              <img
-                alt="Spring" 
-                src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/Spring-Dark.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />
-                <img
-                alt="DotNet" 
-                src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/DotNet.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                alt="Hibernate" 
-                src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/Hibernate-Dark.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                alt="MySQL" 
-                src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/MySQL-Dark.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                alt="PostgreSQL" 
-                src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/PostgreSQL-Dark.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                alt="MongoDB" 
-                src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/MongoDB.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                alt="Redis" 
-                src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/Redis-Dark.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                alt="AWS" 
-                src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/AWS-Dark.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                alt="Azure" 
-                src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/Azure-Dark.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                alt="Docker" 
-                src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/Docker.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                alt="Kubernetes" 
-                src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/Kubernetes.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                alt="Jenkins" 
-                src="https://raw.githubusercontent.com/SOuyang24/skill-icons-example/main/icons/Jenkins-Dark.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />
+              {
+                userData?.techstacks?.map((techstack, index) => (
+                  <MotionProvider key={index} index={index} pageSize={6} >
+                    <TechstackCard id={techstack.id} name={techstack.name} imageUrl={techstack.imageUrl} />
+                  </MotionProvider>
+                ))
+              }
             </div>
           </div>
         </div>
       </div>
     </section>
+  );
+}
+
+const TechstackCard = ({ id, name, imageUrl }) => {
+  const [isLegendVisible, setLegendVisibility] = useState(false);
+
+  const handleMouseEnter = () => {
+    setLegendVisibility(true);
+  };
+
+  const handleMouseLeave = () => {
+    setLegendVisibility(false);
+  };
+  return (
+    <div className="relative" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+      <img src={imageUrl} alt={id} className="w-24 h-auto m-3" />
+      {isLegendVisible && (
+        <div className="popup-legend absolute bottom-0 left-1/2 transform -translate-x-1/2 p-2 bg-gray-800 text-white">
+          <p className="text-center">{name}</p>
+        </div>
+      )}
+    </div>
   );
 }
