@@ -41,7 +41,7 @@ const CertificateCard = ({ title, link, imageUrl, number }) => {
         <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
           {title}
         </h1>
-        <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+        <h1 className="absolute bottom-10 left-10 text-gray-50 bg-blue-500 font-bold text-xl">
           {number.length === 1 ? "0" + number : number}
         </h1>
       </div>

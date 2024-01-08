@@ -286,6 +286,11 @@ const userData = {
       imageUrl: "/projects/pet-name-generator.png",
     },
     {
+      title: "MySupply Platform",
+      link: "https://www.patheon.com/us/en/insights-resources/fact-sheets/mysupply-platform-an-end-to-end-digital-supply-chain-platform.html",
+      imageUrl: "/projects/mysupply-platform.png",
+    },
+    {
       title: "Spin - mobile money transfer",
       link: "https://spinbyoxxo.com.mx/",
       imageUrl: "/projects/Spin.png",
