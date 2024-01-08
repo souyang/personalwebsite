@@ -62,7 +62,7 @@ const ProjectCard = ({title, link, imageUrl, number}) => {
               <img
                 src={imageUrl}
                 alt={title}
-                className="transform hover:scale-125 transition duration-2000 ease-out"
+                className="transform hover:scale-125 transition duration-2000 ease-out max-h-100"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
                 {title}

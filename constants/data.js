@@ -236,55 +236,60 @@ const userData = {
     {
       title: "Notes AI",
       link: "https://notesai.vercel.app/notes",
-      imageUrl: "/projects/notes-ai.png",
+      imageUrl: "/projects/notesai.png",
     },
     {
-      title: "AI Online Article Summarizer",
+      title: "Suzi AI",
       link: "https://suzi-ai.vercel.app/",
-      imageUrl: "/projects/ai-summarizer.png",
+      imageUrl: "/projects/AI-Summarizer.png",
     },
     {
       title: "Prompt Network",
       link: "https://promptnetwork.vercel.app/",
-      imageUrl: "/projects/prompt-network.png",
+      imageUrl: "/projects/Prompt-Network.png",
     },
   ],
   projects: [
     {
       title: "Notes AI",
-      link: "https://notesai.vercel.app/notes",
-      imageUrl: "/projects/notes-ai.png",
+      link: "https://notesai.vercel.app",
+      imageUrl: "/projects/notesai.png",
     },
     {
-      title: "AI Online Article Summarizer",
+      title: "Suzi AI",
       link: "https://suzi-ai.vercel.app/",
-      imageUrl: "/projects/ai-summarizer.png",
+      imageUrl: "/projects/AI-Summarizer.png",
     },
     {
       title: "Prompt Network",
       link: "https://promptnetwork.vercel.app",
-      imageUrl: "/projects/prompt-network.png",
+      imageUrl: "/projects/Prompt-Network.png",
     },
     {
-      title: "Buddy Circle",
+      title: "BuddyCircle- realtime chat app",
       link: "https://buddy-circle.vercel.app",
-      image: "/projects/buddy-circle.png",
+      imageUrl: "/projects/buddy-circle.png",
     },
     {
       title: "Financial Dashboard",
       link: "https://datav-dashboard.netlify.app",
-      image: "/projects/financial-dashboard.png",
+      imageUrl: "/projects/financial-dashboard.png",
     },
     {
       title: "ReturnBear",
       link: "https://numi-canada.portals.returnbear.com/",
-      image: "/projects/returnbear.png",
+      imageUrl: "/projects/returnbear.png",
     },
     {
-      title: "Pet Name Generator",
+      title: "Pet Name AI Generator",
       link: "https://pet-name-generator-ckd0.onrender.com/",
-      image: "/projects/pet-name-generator.png",
-    }
+      imageUrl: "/projects/pet-name-generator.png",
+    },
+    {
+      title: "Spin - mobile money transfer",
+      link: "https://spinbyoxxo.com.mx/",
+      imageUrl: "/projects/Spin.png",
+    },
   ],
   certificates: [
     {

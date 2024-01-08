@@ -14,6 +14,7 @@ export default function Projects() {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40 pl-5 pr-5 md:pl-10  md:pr-10">
           {userData.projects.map((proj, idx) => (
             <ProjectCard
+              key={idx}
               title={proj.title}
               link={proj.link}
               imageUrl={proj.imageUrl}
@@ -40,7 +41,7 @@ const ProjectCard = ({ title, link, imageUrl, number }) => {
         <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
           {title}
         </h1>
-        <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+        <h1 className="absolute bottom-10 left-10 text-gray-50 bg-blue-500 font-bold text-xl">
           {number.length === 1 ? "0" + number : number}
         </h1>
       </div>
