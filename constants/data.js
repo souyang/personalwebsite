@@ -347,7 +347,7 @@ const userData = {
     title:
       "Seasoned in catalyzing start-ups and venture initiatives, I excel in designing, developing, and deploying web/mobile apps across diverse sectors such as E-commerce, Healthcare, Biotech, and Energy.",
     description: [
-      `I am proficient in languages like TypeScript, JavaScript, Python, Java as well as frameworks including React, React Native, Django, Spring Boot, Spring Cloud, Express.js, and Node.js`,`Additionally, I am also familiar with in databases like Redis, MongoDB, Pinecone, DynamoDB, MySQL, Firestore and Postgres, and I utilize Terraform, Docker, Kubernetes, Jenkins, Github, Gitlab, and CircleCI for CI/CD and cloud deployment on AWS, GCP and Azure.`,
+      `I am proficient in languages like TypeScript, JavaScript, Python, Java along with building Restful and GraphQL APIs using frameworks including Django, Spring Boot, Spring Cloud, Express.js, and Node.js via microservices or serverless architectures.`,`Additionally, I am also familiar with in databases like Redis, MongoDB, Pinecone, DynamoDB, MySQL, Firestore and Postgres, and I utilize Terraform, Docker, Kubernetes, Jenkins, Github, Gitlab, and CircleCI for CI/CD and cloud deployment on AWS, GCP and Azure.`,
       `In addition to my technical skills, I'm recognized for promoting teamwork and collaboration within teams. I prioritize transparent communication with both leadership and clients to ensure project success.`
     ],
     currentCompany: "Boston Consulting Group",
