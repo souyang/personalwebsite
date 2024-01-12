@@ -20,7 +20,7 @@ export default function AboutMe() {
           >
             {userData.about.title}. Recently worked in{" "}
             <a
-              className="bg-red-500 rounded-md px-2 py-1 text-white"
+              className="bg-red-500 rounded-md px-2 py-1 text-white hover:text-black"
               href={userData.about.currentCompanyUrl}
               target="_blank"
             >
@@ -71,7 +71,7 @@ export default function AboutMe() {
                {/* twitter */}
               {userData.socialLinks.twitter && (<SocialLink title="Twitter" link={userData.socialLinks.twitter}  />)}
               {/* github */}
-              {userData.socialLinks.github && (<SocialLink title="Github" link={userData.socialLinks.github}  />)}
+              {/* {userData.socialLinks.github && (<SocialLink title="Github" link={userData.socialLinks.github}  />)} */}
               {userData.socialLinks.linkedin && (<SocialLink title="Linkedin" link={userData.socialLinks.linkedin}  />)}
             </div>
           </div>
