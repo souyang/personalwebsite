@@ -1,5 +1,5 @@
 import React from "react";
-import userData from "@constants/data";
+import userData from "@constants/data-frontend";
 import MotionProvider from "./MotionProvider";
 
 export default function Certificates() {

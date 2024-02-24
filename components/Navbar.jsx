@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
-import userData from "@constants/data";
+import userData from "@constants/data-frontend";
 
 export default function Navbar() {
   const router = useRouter();
@@ -104,7 +104,7 @@ export default function Navbar() {
               </svg>
             )}
           </Link>
-          <Link
+          {/* <Link
             href="/certificates"
             className={`text-base  ${
               router.asPath === "/certificates"
@@ -128,7 +128,7 @@ export default function Navbar() {
                 />
               </svg>
             )}
-          </Link>
+          </Link> */}
           <Link
             href="/contact"
             className={`text-base  ${
@@ -283,7 +283,7 @@ export default function Navbar() {
               </svg>
             )}
         </Link>
-        <Link
+        {/* <Link
           href="/certificates"
           className={`text-base ${
             router.asPath === "/certificates"
@@ -307,7 +307,7 @@ export default function Navbar() {
                 />
               </svg>
             )}
-        </Link>
+        </Link> */}
         <Link
           href="/contact"
           className={`text-base ${

@@ -1,5 +1,5 @@
 import React from "react";
-import userData from "@constants/data";
+import userData from "@constants/data-frontend";
 
 export default function Footer() {
   const year = new Date().getFullYear();

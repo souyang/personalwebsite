@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import userData from "@constants/data";
+import userData from "@constants/data-frontend";
 import SocialLink from "./SocialLink";
 import MotionProvider from "./MotionProvider";
 

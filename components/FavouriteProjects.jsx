@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import userData from "@constants/data";
+import userData from "@constants/data-frontend";
 import Image from 'next/image'
 import MotionProvider from "./MotionProvider";
 

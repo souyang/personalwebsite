@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import userData from "@constants/data";
+import userData from "@constants/data-frontend";
 import emailjs from 'emailjs-com';
 import _ from 'lodash';
 import Swal from 'sweetalert2';

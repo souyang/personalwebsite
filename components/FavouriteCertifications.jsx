@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import userData from "@constants/data";
+import userData from "@constants/data-frontend";
 import MotionProvider from "./MotionProvider";
 
 export default function FavouriteCertifications() {
