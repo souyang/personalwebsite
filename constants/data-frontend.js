@@ -3,7 +3,7 @@ const userData = {
   githubUsername: "souyang",
   linkedin: "https://www.linkedin.com/in/xi-ouyang/",
   name: "Simon Ouyang",
-  designation: "Senior Engineer",
+  designation: "Senior Frontend Engineer",
   avatarUrl: "/avatar.jpeg",
   email: "simonouyang@gmail.com",
   phone: "+1 4244759376",
@@ -327,7 +327,7 @@ const userData = {
     title:
       "Seasoned in catalyzing start-ups and venture initiatives, I excel in designing, developing, and deploying web/mobile apps across diverse sectors such as E-commerce, Healthcare, Biotech, and Energy.",
     description: [
-      `I am proficient in languages like TypeScript, JavaScript, Python, Java along with building Restful and GraphQL APIs using frameworks including Django, Spring Boot, Spring Cloud, Express.js, and Node.js via microservices or serverless architectures.`,`Additionally, I am also familiar with in databases like Redis, MongoDB, Pinecone, DynamoDB, MySQL, Firestore and Postgres, and I utilize Terraform, Docker, Kubernetes, Jenkins, Github, Gitlab, and CircleCI for CI/CD and cloud deployment on AWS, GCP and Azure.`,
+      `I am proficient in building responsive websites and mobile applications using React.js, React Native, Next.js, Node.js, and I am well versed in JavaScript, TypeScript, and CSS. I am also familiar with popular frameworks such as Bootstrap, Tailwind, and Material UI. I am a quick learner and can pick up new technologies quickly. I love to learn new technologies.`,
       `In addition to my technical skills, I'm recognized for promoting teamwork and collaboration within teams. I prioritize transparent communication with both leadership and clients to ensure project success.`
     ],
     currentCompany: "Boston Consulting Group",
@@ -335,39 +335,32 @@ const userData = {
   },
   experience: [
     {
-      title: "Tech Lead and Senior Engineer",
+      title: "Founding Engineer",
       company: "Boston Consulting Group",
       year: "2019.4 - Present",
       companyLink: "https://bcg.com",
-      desc: "Led the architectural design and implementation of balance management and money transfer features for a mobile payment app, resulting in over 10M downloads and 4.7 rating on Google Play in just six months.",
+      desc: "Led the architectural design and implementation of balance management and money transfer features for a mobile payment app, resulting in averaging 6 million daily active users and 42 million monthly transactions.",
     },
     {
       title: "Founding Engineer",
       company: "Boston Consulting Group",
       year: "2019.4 - Present",
       companyLink: "https://bcg.com",
-      desc: "Incorporated advanced analytics tools (Google Analytics, Amplitude) for an e-commerce website to extract actionable insights, informing data-driven decisions that enhanced user interface and experience, results in 30% increase on customer engagement.",
+      desc: "Directed and implemented the branded consumer return portal for startup Return Bear, slashing up to 70% shipping cost reduction and shortening refund process from two weeks to 30 minutes for millions of consumers in five retailers",
     },
     {
       title: "Founding Engineer",
       company: "Boston Consulting Group",
       year: "2019.4 - Present",
       companyLink: "https://bcg.com",
-      desc: "Developed and maintained Terraform configurations for a pharmaceutics supply chain platform, resulting in a 40% reduction in deployment time and a 50% decrease in manual configuration errors.",
+      desc: "Oversaw and incorporated observability tools including Amplitude and Google Analytics for Ascension informing data-driven decisions to improve the user experience, resulting in 30% increase on customer engagement.",
     },
     {
-      title: "Tech Lead and Senior Engineer",
+      title: "Founding Engineer",
       company: "Boston Consulting Group",
       year: "2019.4 - Present",
       companyLink: "https://bcg.com",
-      desc: "Directed and implemented an branded return management portal for retailers at an e-commerce startup, slashing refund processing time from 14 days to 15 minutes and 70% shipping costs reduction for millions of consumers of 5 retailers such as Numi, Palladium, Northboys.",
-    },
-    {
-      title: "Pod Lead and Senior Engineer",
-      company: "Boston Consulting Group",
-      year: "2019.4 - Present",
-      companyLink: "https://bcg.com",
-      desc: "Optimized supply chain platform by replacing manual forecast submission and review with automated processes, leveraging D3.js for data visualization, achieved a 25% increase in forecast submission productivity.",
+      desc: "Optimized supply chain platform for Thermofisher by replacing manual forecast submission and review with automated processes, leveraging D3.js for data visualization, achieved a 25% increase in forecast submission productivity.",
     },
     {
       title: "BCG X Hackathon Winner",
