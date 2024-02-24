@@ -2,7 +2,7 @@ const techStackIconBaseURL = "https://raw.githubusercontent.com/SOuyang24/skill-
 const userData = {
   githubUsername: "souyang",
   linkedin: "https://www.linkedin.com/in/xi-ouyang/",
-  name: "Xi Ouyang",
+  name: "Simon Ouyang",
   designation: "Senior Frontend Engineer",
   avatarUrl: "/avatar.jpeg",
   email: "simonouyang@gmail.com",

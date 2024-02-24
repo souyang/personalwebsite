@@ -9,8 +9,8 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
   const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
   const meta = {
-    title: "Xi Ouyang - Innovator, Full-Stack Developer, Designer, Scrum Master",
-    name: "Xi Ouyang",
+    title: "Simon Ouyang - Innovator, Full-Stack Developer, Designer, Scrum Master",
+    name: "Simon Ouyang",
     description: `I've been developing end-to-end web applications for 10 years straight. Get in touch with me to know more.`,
     image: "/avatar.png",
     type: "website",

@@ -4,7 +4,7 @@ import Certificates from "../components/Certificates";
 
 export default function certificates() {
   return (
-    <ContainerBlock title="Certificates - Xi Ouyang">
+    <ContainerBlock title="Certificates - Simon Ouyang">
       <Certificates />
     </ContainerBlock>
   );

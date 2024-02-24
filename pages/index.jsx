@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
     <ContainerBlock
-      title="Xi Ouyang - Innovator, Tech Lead, Developer"
+      title="Simon Ouyang - Innovator, Tech Lead, Developer"
       description="Developer portfolio to show what I have done"
     >
       <Hero />
