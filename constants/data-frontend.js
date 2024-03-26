@@ -329,7 +329,7 @@ const userData = {
     description: [
        `Regarding the frontend,I am specialized in building responsive websites and mobile applications using React.js, React Native, Next.js, Node.js, and I am well versed in JavaScript, TypeScript, and CSS.`, 
       `Regarding the backend, I am proficient in languages like TypeScript, JavaScript along with building Restful and GraphQL APIs using frameworks including Express.js, and Node.js via microservices or serverless architectures.`,
-      `Furthermore, I am also good with SQL and NoSQL databases design and tuning for Redis, MongoDB, Pinecone, DynamoDB, MySQL, Postgres and SQL Server.`
+      `Furthermore, I am also good with SQL and NoSQL databases design and tuning for Redis, MongoDB, Pinecone, DynamoDB, MySQL, Postgres and SQL Server.`,
       `At the same time, I utilize Terraform, Docker, Kubernetes, Jenkins, Github, Gitlab, and CircleCI for CI/CD and cloud deployment on AWS, GCP and Azure.`,
       `In addition to my technical skills, I'm recognized for promoting teamwork and collaboration within teams. I prioritize transparent communication with both leadership and clients to ensure project success.`    ],
     currentCompany: "Boston Consulting Group",
