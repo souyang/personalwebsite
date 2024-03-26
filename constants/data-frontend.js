@@ -3,7 +3,7 @@ const userData = {
   githubUsername: "souyang",
   linkedin: "https://www.linkedin.com/in/xi-ouyang/",
   name: "Simon Ouyang",
-  designation: "Senior Frontend Engineer",
+  designation: "Senior Engineer",
   avatarUrl: "/avatar.jpeg",
   email: "simonouyang@gmail.com",
   phone: "+1 4244759376",
