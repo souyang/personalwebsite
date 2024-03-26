@@ -327,9 +327,11 @@ const userData = {
     title:
       "Seasoned in catalyzing start-ups and venture initiatives, I excel in designing, developing, and deploying web/mobile apps across diverse sectors such as E-commerce, Healthcare, Biotech, and Energy.",
     description: [
-      `I am proficient in building responsive websites and mobile applications using React.js, React Native, Next.js, Node.js, and I am well versed in JavaScript, TypeScript, and CSS. I am also familiar with popular frameworks such as Bootstrap, Tailwind, and Material UI. I am a quick learner and can pick up new technologies quickly. I love to learn new technologies.`,
-      `In addition to my technical skills, I'm recognized for promoting teamwork and collaboration within teams. I prioritize transparent communication with both leadership and clients to ensure project success.`
-    ],
+       `Regarding the frontend,I am specialized in building responsive websites and mobile applications using React.js, React Native, Next.js, Node.js, and I am well versed in JavaScript, TypeScript, and CSS.`, 
+      `Regarding the backend, I am proficient in languages like TypeScript, JavaScript along with building Restful and GraphQL APIs using frameworks including Express.js, and Node.js via microservices or serverless architectures.`,
+      `Furthermore, I am also good with SQL and NoSQL databases design and tuning for Redis, MongoDB, Pinecone, DynamoDB, MySQL, Postgres and SQL Server.`
+      `At the same time, I utilize Terraform, Docker, Kubernetes, Jenkins, Github, Gitlab, and CircleCI for CI/CD and cloud deployment on AWS, GCP and Azure.`,
+      `In addition to my technical skills, I'm recognized for promoting teamwork and collaboration within teams. I prioritize transparent communication with both leadership and clients to ensure project success.`    ],
     currentCompany: "Boston Consulting Group",
     currentCompanyUrl: "https://bcg.com",
   },
