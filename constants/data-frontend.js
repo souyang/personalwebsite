@@ -341,7 +341,14 @@ const userData = {
       company: "Boston Consulting Group",
       year: "2019.4 - Present",
       companyLink: "https://bcg.com",
-      desc: "Led the architectural design and implementation of balance management and money transfer features for a mobile payment app, resulting in averaging 6 million daily active users and 42 million monthly transactions.",
+      desc: "Led the design and implementation of balance management and P2P money transfer features for a mobile payment app for fintech startup SPIN, resulted in 105% yearly user increase across 20,000 convenience stores in Latin America.",
+    },
+        {
+      title: "Founding Engineer",
+      company: "Boston Consulting Group",
+      year: "2019.4 - Present",
+      companyLink: "https://bcg.com",
+      desc: "Oversaw and implemented the storybook integration on shared components for a mobile payment app for fintech startup SPIN, resulted in 40% reduction on UI bug triage time and 20% increase in developer productivity.",
     },
     {
       title: "Founding Engineer",
@@ -349,6 +356,20 @@ const userData = {
       year: "2019.4 - Present",
       companyLink: "https://bcg.com",
       desc: "Directed and implemented the branded consumer return portal for startup Return Bear, slashing up to 70% shipping cost reduction and shortening refund process from two weeks to 30 minutes for millions of consumers in five retailers",
+    },
+    {
+      title: "Founding Engineer",
+      company: "Boston Consulting Group",
+      year: "2019.4 - Present",
+      companyLink: "https://bcg.com",
+      desc: "Directed and implemented the branded consumer return portal for startup Return Bear, slashing up to 70% shipping cost reduction and shortening refund process from two weeks to 30 minutes for millions of consumers in five retailers",
+    },
+    {
+      title: "Founding Engineer",
+      company: "Boston Consulting Group",
+      year: "2019.4 - Present",
+      companyLink: "https://bcg.com",
+      desc: "Collaborated with PM and initial customers via A/B testing strategies using LaunchDarkly for ecommerce startup Return Bear to drive conversion rate improvements via feature flags, resulting in a 50% increase in conversion rate.",
     },
     {
       title: "Founding Engineer",
